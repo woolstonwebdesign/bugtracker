@@ -10,7 +10,7 @@ $owner = 'woolstonwebdesign';
 $repo = 'veriskills';
 
 $client = new GitHubClient();
-$client->setCredentials('design@woolston.com.au', 'HannahN0ah');
+$client->setCredentials('design@woolston.com.au', '<password>');
 $client->setPage();
 $client->setPageSize(2);
 $repository = $client->repos->get($owner, $repo);

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body header, body footer {
+    /* flex: 0 0 100px; */
+    flex-grow: 0;
+}
+
+body main {
+    flex-grow: 1;
+    background-color: #ccc;
+}

@@ -1,0 +1,140 @@
+[04-Oct-2020 12:51:14 UTC] PHP Warning:  include(C:\Users\Steven\Local Sites\bugtracker\app\public\inc\credentials.php): failed to open stream: Permission denied in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 2
+[04-Oct-2020 12:51:14 UTC] PHP Stack trace:
+[04-Oct-2020 12:51:14 UTC] PHP   1. {main}() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:0
+[04-Oct-2020 12:51:14 UTC] PHP Warning:  include(): Failed opening 'inc/credentials.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 2
+[04-Oct-2020 12:51:14 UTC] PHP Stack trace:
+[04-Oct-2020 12:51:14 UTC] PHP   1. {main}() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:0
+[04-Oct-2020 12:51:14 UTC] PHP Notice:  Undefined variable: username in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 10
+[04-Oct-2020 12:51:14 UTC] PHP Stack trace:
+[04-Oct-2020 12:51:14 UTC] PHP   1. {main}() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:0
+[04-Oct-2020 12:51:14 UTC] PHP Notice:  Undefined variable: password in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 10
+[04-Oct-2020 12:51:14 UTC] PHP Stack trace:
+[04-Oct-2020 12:51:14 UTC] PHP   1. {main}() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:0
+[04-Oct-2020 12:51:15 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(19): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 12:52:40 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(19): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 12:53:26 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(19): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 12:54:17 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(20): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 12:55:47 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(20): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 12:55:58 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [404], URL [/repos/woolstonwebdesign/veriskills/issues] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 404 No...', 'GitHubIssue', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php(136): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubIssue', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(20): GitHubIssues->listIssues('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 13:08:54 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [401], URL [/repos/woolstonwebdesign/veriskills/commits] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 401 Un...', 'GitHubCommit', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubReposCommits.php(39): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubCommit', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(15): GitHubReposCommits->listCommitsOnRepository('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 13:09:16 UTC] PHP Fatal error:  Uncaught GitHubClientException: Expected status [200], actual status [401], URL [/repos/woolstonwebdesign/veriskills/commits] in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php:436
+Stack trace:
+#0 C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php(368): GitHubClientBase->parseResponse('/repos/woolston...', 'HTTP/1.1 401 Un...', 'GitHubCommit', 200, true)
+#1 C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubReposCommits.php(39): GitHubClientBase->request('/repos/woolston...', 'GET', Array, 200, 'GitHubCommit', true)
+#2 C:\Users\Steven\Local Sites\bugtracker\app\public\index.php(15): GitHubReposCommits->listCommitsOnRepository('woolstonwebdesi...', 'veriskills')
+#3 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\client\GitHubClientBase.php on line 436
+[04-Oct-2020 13:32:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubRepos::contents() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 24
+[04-Oct-2020 13:33:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubRepos::reposContents() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 24
+[04-Oct-2020 13:36:21 UTC] PHP Recoverable fatal error:  Object of class GitHubFullRepo could not be converted to string in C:\Users\Steven\Local Sites\bugtracker\app\public\client\services\GitHubIssues.php on line 136
+[04-Oct-2020 13:36:21 UTC] PHP Stack trace:
+[04-Oct-2020 13:36:21 UTC] PHP   1. {main}() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:0
+[04-Oct-2020 13:36:21 UTC] PHP   2. GitHubIssues->listIssues() C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:17
+[04-Oct-2020 13:36:48 UTC] PHP Fatal error:  Uncaught Error: Cannot access protected property GitHubFullRepo::$description in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 19
+[04-Oct-2020 13:37:17 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type GitHubFullRepo as array in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 19
+[04-Oct-2020 13:37:27 UTC] PHP Fatal error:  Uncaught Error: Cannot access protected property GitHubFullRepo::$description in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 19
+[04-Oct-2020 13:38:28 UTC] PHP Fatal error:  Uncaught Error: Cannot access protected property GitHubFullRepo::$description in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 21
+[04-Oct-2020 13:44:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::issueComments() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 17
+[04-Oct-2020 13:44:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::comments() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 17
+[04-Oct-2020 13:45:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 17
+[04-Oct-2020 13:47:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 17
+[04-Oct-2020 13:59:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssue::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 13:59:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssue::issueComments() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 14:02:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubRepos::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 14:02:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 14:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubRepos::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 14:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssue::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43
+[04-Oct-2020 14:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method GitHubIssues::listCommentsOnAnIssue() in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Steven\Local Sites\bugtracker\app\public\index.php on line 43

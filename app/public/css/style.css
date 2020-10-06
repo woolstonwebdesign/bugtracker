@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,4 +25,25 @@ main > section {
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
+}
+
+.issue {
+    padding: 20px 10px;
+}
+
+.issue:nth-child(odd) {
+    background-color: #eee;
+}
+
+.issue-title .badge, .issue-title a {
+    flex: 0 0 30px;
+}
+
+.issue-title a .las {
+    font-size: 2em;
+    color: #000;
+}
+
+.issue-title h5 {
+    flex-grow: 1;
 }

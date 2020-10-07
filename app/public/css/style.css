@@ -47,3 +47,8 @@ main > section {
 .issue-title h5 {
     flex-grow: 1;
 }
+
+.navbar-toggler {
+    outline-width: 0 !important;
+    border: none;
+}
